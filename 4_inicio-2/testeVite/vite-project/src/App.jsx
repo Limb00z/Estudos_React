@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import Comparacao from './assets/comparacao.png'
 import './App.css'
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
         <h1>Aprendendo sobre:</h1>
       </div>
       <h2>Vite + React</h2>
+      <img src={Comparacao} className="foto"/>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           contador: {count}

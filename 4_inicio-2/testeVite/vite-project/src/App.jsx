@@ -1,25 +1,15 @@
-import { useState } from 'react'
-import Comparacao from './assets/comparacao.png'
 import './App.css'
 import Header from './componentes/Header'
+import Corpo from './componentes/Corpo'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <div className="App">
-      <div>
-        <h1>Aprendendo sobre:</h1>
-      </div>
       <Header/>
       <h2>Vite + React</h2>
-      <img src={Comparacao} className="foto"/>  {/*Para exibir essa imagem que está no src, precisa importar*/}
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          contador: {count}
-        </button>
-      </div>
-      <img src="/img/3x4-png.png"/> {/*Como está no Public, não precisa importar no início*/}
+      <Corpo/>
     </div>
   )
 }

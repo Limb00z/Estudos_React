@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Comparacao from './assets/comparacao.png'
 import './App.css'
+import Header from './componentes/Header'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
       <div>
         <h1>Aprendendo sobre:</h1>
       </div>
+      <Header/>
       <h2>Vite + React</h2>
       <img src={Comparacao} className="foto"/>  {/*Para exibir essa imagem que está no src, precisa importar*/}
       <div className="card">

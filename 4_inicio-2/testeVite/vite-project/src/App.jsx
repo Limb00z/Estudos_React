@@ -11,7 +11,7 @@ function App() {
       <Header/>
       <h2>Vite + React</h2>
       <Corpo/>
-      <Dados/>
+      <Dados um='Ruan' dois='Reis' tres='28'/> {/*Usa no props um dois tres, pra mostrar que o nome não precisa ser o mesmo*/}
     </div>
   )
 }

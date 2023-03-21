@@ -1,10 +1,13 @@
-import React from 'react'
+import { React, useState } from 'react'
+
+
 
 export default function Relogio() {
  
-        return (
-            <p>{new Date().toLocaleTimeString()}</p>)
-   
-    
-  
+
+ return (
+     <div>
+         
+     </div>
+  );
 }
